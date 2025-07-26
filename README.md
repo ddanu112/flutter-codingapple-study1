@@ -18,3 +18,4 @@ class MyApp extends StatelessWidget {
 }
 
 안녕 이라고 텍스트 넣는경우
+runAPP- 앱시작
