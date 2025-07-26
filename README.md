@@ -16,6 +16,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+void main 이후 stless 치고 tap키 눌러서 만듦 그후 14줄 const 뒤에 MaterialApp치고 소괄호 안에 home:
 안녕 이라고 텍스트 넣는경우
 runAPP- 앱시작
