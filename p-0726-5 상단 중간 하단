@@ -1,0 +1,89 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return  MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(),
+        body: Container(),
+        bottomNavigationBar: BottomAppBar(),
+      )
+      );
+
+
+  }
+}
+
+
+
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return  MaterialApp(
+      home: Scaffold(
+        body: Row(
+          children: [
+            Icon(Icons.star),
+            Icon(Icons.star),
+            Icon(Icons.star)
+          ]
+             
+        ),
+       
+      )
+      );
+
+
+  }
+}
+아이콘 가로로 여러개쓸경우 container 대신 row , child 대신 children
+      세로로 쓸경우 column
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return  MaterialApp(
+      home: Scaffold(
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.star),
+            Icon(Icons.star),
+            Icon(Icons.star)
+          ]
+
+        ),
+       
+      )
+      );
+
+
+  }
+
+  mainAxisAlignment: MainAxisAlignment.center, 를 이용해서 가운데로
+여기에 center 말고spaceEvenly 간격두고 정렬
+crossAxisAlignment: CrossAxisAlignment.center, 이건 세로축 정렬
