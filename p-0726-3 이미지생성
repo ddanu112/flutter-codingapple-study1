@@ -18,3 +18,7 @@ class MyApp extends StatelessWidget {
 이미지 생성 13줄
 Image.asset('경로')
 인데 여기서 폴더 안에 있는 경로를 써야하므로 폴더이름/경로 가 맞긴함
+
+setting: assets 폴더안에 사진이 있어야하고,pubspec.yalm 에 들어가서 
+중간부분에 Flutter 아래에 assets:
+                           -assets/ 이런식으로 assets 폴더안에 있는 사진들을 전부 쓰겠다고 해줘야함
